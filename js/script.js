@@ -1,5 +1,5 @@
 let encendido = true;
-function cambia(){
+const cambia = () =>{
 	if(encendido == true){
 		
 		document.getElementById('cambio').className = 'encendido';
