@@ -1,0 +1,41 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background:#a3c7f7;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#cambio{
+	width:280px;
+	margin:100px auto;
+	height:280px;
+	border:2px solid #999595;
+	box-shadow:2px 2px 3px #000;
+	line-height:250px;
+	text-align:center;
+	font-size:1em;
+}
+button{
+	width:150px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	margin-left:45%;
+	background:#8B090B;
+	color:#fff;
+	cursor:pointer;
+}
+
+button:hover{
+	background:#837C7C;
+}
+.encendido{
+	background:url(../img/bombillas.jpg) no-repeat -46px -161px;
+
+}
+.apagado{
+	background:url(../img/bombillas.jpg) no-repeat -304px -161px;
+}
